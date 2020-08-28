@@ -131,7 +131,7 @@
         // Bind events that trigger methods
         bindEvents: function() {
         	var plugin = this;
-        	$(window).on('focus',function(){
+        	/*$(window).on('focus',function(){
         		plugin.documentHasFocus = true;
         		for (var key in plugin.marqueeSpawned){
       	          plugin.marqueeManager(plugin.marqueeSpawned[key]);   
@@ -143,7 +143,7 @@
         	        plugin.marqueeSpawned[key].el.clearQueue().stop(); 
         	        plugin.marqueeSpawned[key].hovered = true;
         	    }
-        	});
+        	});*/
 
         },
 
